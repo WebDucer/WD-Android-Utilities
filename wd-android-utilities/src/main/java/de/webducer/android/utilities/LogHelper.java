@@ -38,7 +38,11 @@ import java.security.cert.X509Certificate;
 import javax.security.auth.x500.X500Principal;
 
 /**
- * Created by eugen on 02.02.15.
+ * Log Helper
+ *
+ * @author WebDucer - IT &amp; Internet Service
+ * @version 0.4
+ * @since 2015-02-23
  */
 public class LogHelper {
    private static final X500Principal DEBUG_DN = new X500Principal("CN=Android Debug,O=Android,C=US");
