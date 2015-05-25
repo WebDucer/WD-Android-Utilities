@@ -25,7 +25,11 @@
 package de.webducer.android.utilities;
 
 /**
- * Created by eugen on 31.01.15.
+ * Text helper
+ *
+ * @author WebDucer - IT &amp; Internet Service
+ * @version 0.1
+ * @since 2015-02-23
  */
 public final class TextHelper {
    public final static String EMPTY = "";
@@ -35,8 +39,8 @@ public final class TextHelper {
    /**
     * Compare two strings with null as equal comparison
     *
-    * @param firstValue
-    * @param secondValue
+    * @param firstValue first value to compare
+    * @param secondValue second value to compare
     * @return TRUE, values are equal or both are NULL
     */
    public final static boolean isEqualNoValue(String firstValue, String secondValue) {
@@ -50,7 +54,7 @@ public final class TextHelper {
    /**
     * Chec if the string is NULL, Empty or White Space
     *
-    * @param value
+    * @param value value to check
     * @return FALSE, value is not NULL, Empty or White Space
     */
    public final static boolean isNullEmptyOrWhitespace(String value) {
@@ -60,8 +64,8 @@ public final class TextHelper {
    /**
     * Get valid tag for logging from the given class name and prefix
     *
-    * @param prefix
-    * @param className
+    * @param prefix prefix for the tag
+    * @param className class name to use for tag generation
     * @return prefix + trimmed class name, if longer than allowed
     */
    public final static String getTag(String prefix, String className) {
@@ -85,7 +89,7 @@ public final class TextHelper {
    /**
     * Get valid tag for logging from the given class name
     *
-    * @param className
+    * @param className class name to use for tag generation
     * @return class name trimmed (the start) to the maximum allowed length for tag
     */
    public final static String getTag(String className) {
